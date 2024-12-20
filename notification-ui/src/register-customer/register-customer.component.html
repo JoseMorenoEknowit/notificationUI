@@ -1,0 +1,14 @@
+<h2>Register New Customer</h2>
+<form (submit)="registerCustomer()">
+  <label>
+    Name:
+    <input type="text" [(ngModel)]="name" name="name" required>
+  </label>
+  <br>
+  <label>
+    Email:
+    <input type="email" [(ngModel)]="email" name="email" required>
+  </label>
+  <br>
+  <button type="submit">Register</button>
+</form>
